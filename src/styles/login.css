@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    height: 100vh;
+    
+}
+.page{
+     height: 812px;
+    display:flex;
+    
+    width: 375px;
+    background: #fbfbfb;
+    border:1px solid rgb(110, 109, 109);
+    flex-direction: column;
+}
+#login-heading{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 188px;
+    height: 69px;
+    padding:10px;
+}
+#login-subheading{
+    margin-top: 14px;
+    height:48px;
+    width:188px;
+    margin-left:20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    margin-right: 20px;
+   
+  
+    
+
+}
+.input-container{
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.input-container input{
+    width: 100%;
+    height: 40px;
+    padding: 12px 10px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: white;
+}
+
+.input-container label{
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    background: #fbfbfb;
+    padding: 0 5px;
+    font-size: 13px;
+    color: #6C25FF;
+}
+
+.required{
+    color: red;
+}
+#login-button{
+      height: 46px;
+    border: none;
+    border-radius: 6px;
+    background: #CBCBCB;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    
+    width: 100%;
+    box-sizing: border-box;
+      box-shadow:
+    0 10px 40px rgba(31, 38, 135, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.4);
+
+
+}
