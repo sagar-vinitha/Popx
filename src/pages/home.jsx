@@ -8,7 +8,7 @@ function Home() {
             <h2 id="home-heading">Welcome to PopX</h2>
             <p id="home-subheading">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
             <button id="createAccount-button" onClick={()=> navigate("/signup")}>Create Account</button>
-            <button id="login-button" onClick={() => navigate("/login")}>Already Registered? Login</button>
+            <button id="login-button-h" onClick={() => navigate("/login")}>Already Registered? Login</button>
             </div>
             </div>
 

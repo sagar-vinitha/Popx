@@ -25,7 +25,7 @@ function Profile() {
   return (
     <div className="profile-page">
       <div className="profile-container">
-        <h2 className="profile-heading"><FaCog />Account Settings</h2>
+        <h2 className="profile-heading">Account Settings</h2>
 
         <div className="profile-section">
           <div className="profile-image-container">
